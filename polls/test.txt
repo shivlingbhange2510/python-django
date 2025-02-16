@@ -1,0 +1,12 @@
+set ccokeis to HTTP response 
+response=HttpResponse();
+response.set_cookie('cookie_name', value=data) n // cookie_name  is name of key
+
+set the multiple ccokeis we have to set different key 
+response.set_cookie(key, value); // key should be different for each set_cookie
+
+___________setting status code  statuscode___________________
+response=HttpResponse();
+response.status_code=200
+
+
